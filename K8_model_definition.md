@@ -2,6 +2,7 @@
 This guide is written by reading the k8vavoom source code and as accurate as author's undestanding of it. So there may be some errors.
 
 _Implementation note_. For boolean values there are some additional options:
+
 TRUE:
 * yes
 * tan
@@ -14,12 +15,13 @@ FALSE:
 
 ## vavoom_model_definition
 This is the only root element in the xml definition. 
+
 _Attributes_
  * noselfshadow [true|**false**]
 
 _Nodes_
- * <model> 
- * <class>
+ * model 
+ * class
 
 ### model
 _Attributes_
@@ -27,12 +29,13 @@ _Attributes_
  * noselfshadow, ignored
  
 _Nodes_
- * <md2>
- * <md3>
- * <kvx>
+ * md2
+ * md3
+ * kvx
 
 ### model nodes
 The md2, md3, and kvx nodes handle model definitions.
+	
 _Attributes_ 
  * file [string], cannot be empty
  * mesh_index [int], not compatible with a voxel model
@@ -56,10 +59,10 @@ _Attributes_
  * pivotz  [true|**false**], for voxels
  
  _Nodes_
- * <frame>
- * <skin>
- * <subskin>
- * <transform>
+ * frame
+ * skin
+ * subskin
+ * transform
  
  #### Frame node
 
@@ -82,10 +85,11 @@ _Attributes_
  * scale_z [float]
  
 _Nodes_
- * <transform>
+ * transform
 
 #### Skin node
 Voxel models cannot have skins
+	
 _Attributes_
  * file [string]
  * shade [string]
@@ -97,6 +101,7 @@ _Attributes_
  * submodel_index [int, -1]
 
 ### class
+	
 _Attributes_
 * name [string]
 * noselfshadow [true|**false**]
@@ -106,9 +111,10 @@ _Attributes_
 * bobbing  [true|**false**]
 
 _Nodes_
-* <state>
+* state
 
 #### State node
+	
 _Attributes_
 * "angle_yaw" [float]
 * "angle_pitch" [float]
