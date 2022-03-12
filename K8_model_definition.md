@@ -134,3 +134,23 @@ _Attributes_
 * "angle_end" float, 0.0]
 * "alpha_start" [float, 1.0]
 * "alpha_end" [float, 1.0]
+
+## Example
+```
+<?xml version="1.0" encoding="UTF-8" ?>
+<vavoom_model_definition>
+	<model name="base">
+		<md2 file="models/lights/fbarrel.md2" skin_anim_speed="32" skin_anim_range="8">
+			<frame index="0" />
+			<frame index="1" />
+			<frame index="2" />
+		</md2>
+	</model>
+	<class name="BurningBarrel"  iwadonly="true">
+		<!-- Spawn -->
+		<state index="0" model="base"  frame_index="0" />
+		<state index="1" model="base"  frame_index="1" />
+		<state index="2" model="base"  frame_index="2" />
+	</class>
+</vavoom_model_definition>
+```
