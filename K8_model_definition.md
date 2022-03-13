@@ -1,6 +1,5 @@
 # K8 Vavoom model definition
 This guide is written by reading the k8vavoom source code and as accurate as author's undestanding of it. So there may be some errors.
-Also, you can use the `specs/unfinished/k8vavoom_models.txt` file from the sources as a reference.
 
 _Implementation note_. For boolean values there are some additional options:
 
@@ -69,6 +68,7 @@ _Attributes_
  * scale_y [float]
  * scale_z [float]
  * pivotz  [true|**false**], for voxels
+ * alpha_mul [float, 1.0]
  
  _Nodes_
  * frame
