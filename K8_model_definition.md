@@ -68,7 +68,7 @@ _Attributes_
  * scale_y [float]
  * scale_z [float]
  * pivotz  [true|**false**], for voxels
- * alpha_mul [float, 1.0]
+ * alpha_mul [float, 1.0] multiplier for entity alpha; can be used to make some submodels translucent (like glass on a complex lamp model)
  
  _Nodes_
  * frame
