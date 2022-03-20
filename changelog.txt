@@ -1,0 +1,17 @@
+=== 2022-03-20 ===
+18:59:16 [645b6731ea] voxelib: got rid of non-POD dynamic arrays (user: ketmar tags: trunk)
+18:08:50 [f05ec7d7f1] voxelib: added KVX/KV6 loaders, and used them instead of loaders from "r_parse_kvx.cpp" (user: ketmar tags: trunk)
+06:19:08 [26ba1b97e9] voxels: moved voxel conversion code to (almost) standalone library (user: ketmar tags: trunk)
+05:41:57 [9b3c656e7e] corelib: some fixes, added `TArray::transferDataFrom()` (user: ketmar tags: trunk)
+05:19:53 [6010bff0e3] vc: fixed `VMethod` ctor (user: ketmar tags: trunk)
+=== 2022-03-18 ===
+02:42:47 [e9669e7574] models: added some more class globals to xml, and used that in gz converter (user: ketmar tags: trunk)
+01:50:54 [27a4294f49] model: xml and gz conversion cosmetix (user: ketmar tags: trunk)
+01:17:34 [18e0a79b41] models: better converted gzdoom model dumping (use "+dbg_dump_gzmodels 1") (user: ketmar tags: trunk)
+=== 2022-03-17 ===
+22:12:01 [05e56fdce3] voxels: even more simplified t-junction fixer code (user: ketmar tags: trunk)
+21:05:13 [8c0c8defe5] voxels: added one const ;-) (user: ketmar tags: trunk)
+20:59:16 [de667c3bd8] voxels: rewritten t-junction fixer: takes x4 less memory, faster, and fixes some bugs in the old one (user: ketmar tags: trunk)
+19:20:02 [1faff0cae7] models: some cosmetix and more sanity checks; hid lowest voxel optimisation levels (they are useless anyway) (user: ketmar tags: trunk)
+18:43:38 [d71a23e7dd] models: added t-junction fixer (and the corresponding option); also, it is now possible to change voxel optimisation level without restarting the engine (user: ketmar tags: trunk)
+17:23:34 [22d99a8d11] models: added optional t-junction fixer to voxel converter (user: ketmar tags: trunk)
