@@ -1,3 +1,11 @@
+=== 2022-03-21 ===
+18:11:29 [52f6d99f00] render: fixes in glass (translucent submodels on non-translucent models) rendering; they should be properly sorted now (user: ketmar tags: trunk)
+17:46:50 [3a722c2d2e] Add wiki page "voxel_library" (user: steinkrauz)
+16:43:52 [ac80a02bb5] render: tried to cache model transformations in advrender; for some reason it is even slower, lol (user: ketmar tags: advmodel_drawlist_cache)
+04:23:39 [8d443baa9d] *BRANCH* script: added "MObj_State" cheat (user: ketmar tags: trunk)
+02:35:10 [8f550c1fb7] voxelib: added comment about texture filtering (user: ketmar tags: trunk)
+01:03:25 [ef0007f8df] render: forgot to set one var in "pushdlights" (mostly harmless, only causes some minor lighting visibility glitches) (user: ketmar tags: trunk)
+00:46:32 [d7996fd94e] voxelib: fixed stupid color atlas bug; some code refactoring (user: ketmar tags: trunk)
 === 2022-03-20 ===
 18:59:16 [645b6731ea] voxelib: got rid of non-POD dynamic arrays (user: ketmar tags: trunk)
 18:08:50 [f05ec7d7f1] voxelib: added KVX/KV6 loaders, and used them instead of loaders from "r_parse_kvx.cpp" (user: ketmar tags: trunk)
