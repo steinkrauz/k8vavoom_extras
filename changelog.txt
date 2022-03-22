@@ -1,6 +1,17 @@
+=== 2022-03-22 ===
+15:55:08 [2cf78e4272] models: removed some wrong checking code; fixed edge and planes on-demand builder (user: ketmar tags: trunk)
+14:08:03 [2c33d56e73] render: fixed model normal matrix calculations (user: ketmar tags: trunk)
+14:07:32 [ea2a09c4f8] corelib: matrix recomposition microoptimisations (user: ketmar tags: trunk)
+14:06:51 [75a8cac099] voxelib: fixed quad normal calculation i accdently in previous commits (user: ketmar tags: trunk)
+14:05:24 [258aa2107a] shaders: cosmetix (user: ketmar tags: trunk)
+11:33:53 [c0e397cb00] voxelib: faster quad normals generation (there is no need to calculate them at all) (user: ketmar tags: trunk)
 === 2022-03-21 ===
+21:44:35 [63878cc26f] render: restoring rendering of additive models (user: ketmar tags: trunk)
+20:55:23 [c74e8e4223] Edit [6523dd08bd7af8b7|6523dd08bd]: Edit check-in comment. (user: ketmar)
+19:31:55 [baf9e8469d] source: fixed some typos in comments (thanks, steinkrauz!) (user: ketmar tags: trunk)
+19:20:21 [6523dd08bd] models: fixed GZDoom multimodel frames (thanks, id0!); MODELDEF can attach many models to one frame, and Vavoom is using that for inter-frame models and interpolation; made that mutually exclusive (user:ketmar tags: trunk)
+18:40:47 [240a38065f] model: added some hacks to GZDoom MODELDEF (allow more than one attached model to one sprite frame) (user: ketmar tags: trunk)
 18:11:29 [52f6d99f00] render: fixes in glass (translucent submodels on non-translucent models) rendering; they should be properly sorted now (user: ketmar tags: trunk)
-17:46:50 [3a722c2d2e] Add wiki page "voxel_library" (user: steinkrauz)
 16:43:52 [ac80a02bb5] render: tried to cache model transformations in advrender; for some reason it is even slower, lol (user: ketmar tags: advmodel_drawlist_cache)
 04:23:39 [8d443baa9d] *BRANCH* script: added "MObj_State" cheat (user: ketmar tags: trunk)
 02:35:10 [8f550c1fb7] voxelib: added comment about texture filtering (user: ketmar tags: trunk)
