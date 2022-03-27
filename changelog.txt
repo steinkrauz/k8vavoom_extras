@@ -1,3 +1,22 @@
+=== 2022-03-27 ===
+02:49:22 [23b8658fbd] *CURRENT* physics: "mv_new_slope_code" hack; slope movement between small slope sectors is still jerky, but somewhat better; the problem is that we may climb onto steep slopes now, i believe (user: ketmar tags: trunk)
+01:58:45 [43bc13e776] psim: physics: debug cosmetix (user: ketmar tags: trunk)
+=== 2022-03-26 ===
+23:45:45 [433d219dec] models: some fixes in modeldef scale and offset handling (switched x and y axes) (user: ketmar tags: trunk)
+23:08:44 [dc6e20a292] models: parse broken MODELDEF multiframe definitions (thanks, id0!) (user: ketmar tags: trunk)
+20:49:36 [ab43a836c0] acs: `xxxActorInventory()` with TID 0 should affect all players, not script activator (thanks, Shot846!) (user: ketmar tags: trunk)
+09:46:30 [8f69ee9c5e] build: basev/common cmake fix (user: ketmar tags: trunk)
+07:47:32 [83df0fa424] Closed ticket [28310ccbd5f89d8f|28310ccbd5]: <i>add ZDoom sector sound origin emulation</i> plus 5 other changes (user: ketmar)
+07:45:35 [4eca9f7720] base: ui: split gameplay options menu to submenus (user: ketmar tags: trunk)
+07:45:07 [3728d7eade] psim: level: sound: better sector sound origin calculation ("gm_compat_sector_sound" cvar) (user: ketmar tags: trunk)
+07:21:04 [9d81cbc7fc] level: fixed bug in `P_SectorClosestPoint()` (user: ketmar tags: trunk)
+07:19:10 [e484670cb0] classcheck: it works again (user: ketmar tags: trunk)
+00:57:51 [d42717da1c] src: cosmetix in commented code (user: ketmar tags: trunk)
+00:06:16 [463e69c7f5] script: cosmetix in item dropping (from dead monsters): move it slightly forward (user: ketmar tags: trunk)
+=== 2022-03-25 ===
+22:54:59 [1d25ce322a] script: ...oops! ;-) (user: ketmar tags: trunk)
+22:53:11 [1b3fa49968] script: clear HUD message widget size on reusing (user: ketmar tags: trunk)
+21:57:47 [ec308ba99a] script: fixed (i hope) ACS HUD coordinate calculations (thanks, shot846!) (user: ketmar tags: trunk)
 === 2022-03-22 ===
 15:55:08 [2cf78e4272] models: removed some wrong checking code; fixed edge and planes on-demand builder (user: ketmar tags: trunk)
 14:08:03 [2c33d56e73] render: fixed model normal matrix calculations (user: ketmar tags: trunk)
