@@ -11,7 +11,7 @@ The are also some docs on how to build k8vavoom under Windows and on k8vavoom 3d
 ## Useful links
 
 ### Official k8vavoom forum
-https://www.doomworld.com/forum/topic/102766-k8vavoom-no-good-thing-ever-dies-2022-mar-06-build/
+https://doomer.boards.net/thread/2260/k8vavoom-good-thing-dies-build
 
 ### Fossil repo
 https://ketmar.no-ip.org/fossil/k8vavoom/
