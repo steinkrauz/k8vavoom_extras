@@ -1,3 +1,23 @@
+=== 2022-04-10 ===
+14:25:23 [54e7be01ad] *CURRENT* script: added code to emulate exploding barrel bug for Zan mod (user: ketmar tags: trunk)
+13:45:32 [8255016ef7] script: in `RadiusAttack()`, `DamageSource` should have priority over "don't damage same species" flag (user: ketmar tags: trunk)
+13:12:37 [0b6debd233] script: added some decorate functions (user: ketmar tags: trunk)
+=== 2022-04-09 ===
+21:03:06 [d03f635694] vccrun: added `glGetMatrix()` and `glSetMatrix()` (user: ketmar tags: trunk)
+19:55:03 [5c93b8a35d] vc: added `TMatrix4` struct (not tested yet) (user: ketmar tags: trunk)
+18:55:46 [a84efed05e] vccrun: added a hack to test runner, so i don't have to fix line numbers in tests again and again (user: ketmar tags: trunk)
+=== 2022-04-08 ===
+15:32:53 [f5c07c66f8] corelib: fixed systimer results (offset was way too big; cosmetic bug) (user: ketmar tags: trunk)
+=== 2022-04-07 ===
+12:31:39 [9c8b8dbd64] script: UI doesn't need `K8VPlayer`, `PlayerEx` is enough (user: ketmar tags: trunk)
+12:23:30 [9dd84ab434] engine: whitespace cosmetix (user: ketmar tags: trunk)
+12:22:38 [ade95eb831] engine: script: renamed `Player` class to `K8VPlayer`, to avoid possible name clashing with mods (user: ketmar tags: trunk)
+12:21:41 [b833c6763c] vc: added class name translation callbacks (so translation code can pefrorm some sanity checks) (user: ketmar tags: trunk)
+=== 2022-04-06 ===
+06:45:46 [f152d5c57e] Edit to wiki page "k8vavoom Doom sourceport" (user: ketmar)
+=== 2022-04-04 ===
+17:35:33 [8b198fa6af] psim: fixed dedicated server building (user: ketmar tags: trunk)
+17:31:06 [bedd550c0e] script: removed some `final` declarations, to allow more VC overrides (user: ketmar tags: trunk)
 === 2022-03-27 ===
 02:49:22 [23b8658fbd] *CURRENT* physics: "mv_new_slope_code" hack; slope movement between small slope sectors is still jerky, but somewhat better; the problem is that we may climb onto steep slopes now, i believe (user: ketmar tags: trunk)
 01:58:45 [43bc13e776] psim: physics: debug cosmetix (user: ketmar tags: trunk)
