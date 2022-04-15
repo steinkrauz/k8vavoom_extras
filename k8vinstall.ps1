@@ -8,7 +8,7 @@
     .NOTES
     	This Powershell script is intended to automate creation of k8vavoom installation and meant to run from the directory where k8vavoom was built. It's recommened to separate build and sources directories.
 
-	Copyright © 2000 Stein Krauz <steinkrauz@yahoo.com>
+	Copyright Â© 2000 Stein Krauz <steinkrauz@yahoo.com>
 	This work is free. You can redistribute it and/or modify it under the terms of the Do What The Fuck You Want To Public License, Version 2, as published by Sam Hocevar. See http://www.wtfpl.net/ for more details. 
 
     .LINK
@@ -78,7 +78,7 @@ Copy-Item (Join-Path $sources Readme) -Destination $tgtdocs -Force
 Copy-Item (Join-Path $sources docs k8vavoom.txt) -Destination $sharedir -Force
 Copy-Item (Join-Path $sources res k8vavoom.png) -Destination $sharedir -Force
 
-
+Get-ChildItem -Path $sharedir -Include CMakeFiles -Recurse -force | Remove-Item -Force -Recurse
 
 $ico = (Join-Path $sources res ico )
 $icons = (Join-Path $sharedir icons)
