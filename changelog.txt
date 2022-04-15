@@ -1,3 +1,23 @@
+=== 2022-04-15 ===
+19:44:23 [f5cff542e7] *CURRENT* script: ...fix for the previous commit (user: ketmar tags: trunk)
+19:38:12 [4b5c8e71ed] script: `A_Explode` action now returns a value (per ZDoom wiki) (user: ketmar tags: trunk)
+19:34:56 [314e5cd9ef] vc: let decorate state actions return a value (user: ketmar tags: trunk)
+19:31:56 [122ce1225c] psim: comsetix (user: ketmar tags: trunk)
+16:28:43 [1939a0114f] decorate: relaxed Spanish Inquisition for `A_JumpIf()`; some code cleanups (user: ketmar tags: trunk)
+15:32:54 [5647f0b0a2] decorate: script: renamed damage expression function; added flag to bypass it (for setting APROP_Damage) (user: ketmar tags: trunk)
+12:57:06 [0506cceb27] script: added `A_JumpIfInventoryLess()` (user: ketmar tags: trunk)
+12:45:49 [0b96570d1f] script: smaller steps in physics (user: ketmar tags: trunk)
+=== 2022-04-14 ===
+19:51:50 [04edf955dc] psim: script: added `WRF_SECONDARY_SAME_AMMO` flag for `A_WeaponReady()` (secondary fire will use primary ammo) (user: ketmar tags: trunk)
+17:51:07 [5ca7532bc6] script: added hack for Zan Toxic Cloud (so it won't block projectiles) (user: ketmar tags: trunk)
+10:03:11 [4a2f5af316] opengl: cosmetix (user: ketmar tags: trunk)
+=== 2022-04-13 ===
+08:41:24 [b83135919d] vc: converted some free functions to `TVec` methods (user: ketmar tags: trunk)
+08:40:56 [1ffc788ffb] corelib: converted some free functions to `TVec` methods (user: ketmar tags: trunk)
+=== 2022-04-12 ===
+15:09:57 [40ee58b239] opengl: cosmetix (user: ketmar tags: trunk)
+13:35:00 [68f313d948] vc: added some 2D vector functions (user: ketmar tags: trunk)
+13:34:45 [42c47b64c2] corelib: added some 2D vector functions (user: ketmar tags: trunk)
 === 2022-04-10 ===
 14:25:23 [54e7be01ad] *CURRENT* script: added code to emulate exploding barrel bug for Zan mod (user: ketmar tags: trunk)
 13:45:32 [8255016ef7] script: in `RadiusAttack()`, `DamageSource` should have priority over "don't damage same species" flag (user: ketmar tags: trunk)
