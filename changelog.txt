@@ -1,5 +1,11 @@
 === 2022-04-16 ===
-14:56:36 [56ad2c6c2b] *CURRENT* script: microoptimisations of `LookForXXX()` AI methods (user: ketmar tags: trunk)
+23:21:10 [6d119c4ad9] *CURRENT* script: cosmetix (playerex) (user: ketmar tags: trunk)
+22:33:17 [264b17b075] psim: allowed thing-stepping in `A_SpawnItem*()` actions (spawned monster could step on things if not too high) (user: ketmar tags: trunk)
+21:17:09 [e4b53d8029] decorate: fixed bug in "BloodType" property parsing (user: ketmar tags: trunk)
+20:36:08 [b6ce6895dc] psim: specs: added experimental "FloorDamageAlphaMul" option for floor decals (user: ketmar tags: trunk)
+19:54:20 [85150e972f] decorate: some fixes to blood color darkening (user: ketmar tags: trunk)
+19:33:53 [4984e80a4e] script: added some decorate functions (user: ketmar tags: trunk)
+14:56:36 [56ad2c6c2b] script: microoptimisations of `LookForXXX()` AI methods (user: ketmar tags: trunk)
 13:34:12 [bcd22c4b6d] script: removed debug message (user: ketmar tags: trunk)
 12:53:38 [b117d0e01e] script: implemented "+NODECAL" and "+FORCEDECAL" puff properties (user: ketmar tags: trunk)
 12:18:54 [b92b06b585] script: base: added support for "Player.Face" DECORATE property (user: ketmar tags: trunk)
