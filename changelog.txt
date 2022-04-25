@@ -1,5 +1,24 @@
+
+20:35:54 [796e2b93ea] *CURRENT* script: `A_SetBlend()` fixes (user: ketmar tags: trunk)
+20:28:07 [88ffc5eff0] script: marked some color args in decorate actions with "color*" flags (user: ketmar tags:
+         trunk)
+20:27:30 [e2aee4921f] vc: decorate: moved params flags ([nnn]) processing to where it belongs (from vc lib to
+         decorate massager) (user: ketmar tags: trunk)
+15:29:41 [9cad67b9a6] script: partially implemented `A_StartSound()` (user: ketmar tags: trunk)
+15:07:16 [a752024227] sound: script: experimental implementation of user-defined sound pitches; rewritten random
+         sound pitching a little (user: ketmar tags: trunk)
+14:28:33 [479aa487b7] sound: script: it seems that i implemented `local` flag in `A_PlaySound()` completely wrong
+         (and broke `A_StopSound()` for players); should be fixed now (user: ketmar tags: trunk)
+00:50:54 [3aacc1b180] script: statusbar class comments, and some new methods; try to use ammo spawn sprite if it has
+         no icon (user: ketmar tags: trunk)
+=== 2022-04-23 ===
+17:17:50 [6074cabcd9] New ticket [851ec28c9ca70d9e|851ec28c9c] <i>move some in-game stats rendering from C++ to VC
+         statusbar code</i>. (user: ketmar)
+=== 2022-04-22 ===
+01:39:49 [075c8d0091] script: added `VLevel.CComm[GS]etPropClass` (user: ketmar tags: trunk)
+00:57:22 [86bd5b7660] engine: added a way to ignore "known unknown" classes in savegame loader (user: ketmar tags:trunk)
 === 2022-04-19 ===
-18:58:04 [08783f2bfe] *CURRENT* automap: some fixes to the previous commit (still not ideal, but meh for now) (user: ketmar tags: trunk)
+18:58:04 [08783f2bfe] automap: some fixes to the previous commit (still not ideal, but meh for now) (user: ketmar tags: trunk)
 === 2022-04-18 ===
 23:53:06 [683295317c] minimap: use blockmap to render lines and things/keys (slightly buggy on rotations, but meh...) (user: ketmar tags: trunk)
 21:21:03 [bbd158eff4] decorate: script: fixes in "known blood" mechanics (i accidentally it when moved Gore Mod to the core) (user: ketmar tags: trunk)
