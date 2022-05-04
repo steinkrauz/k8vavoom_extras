@@ -1,5 +1,24 @@
-
-20:35:54 [796e2b93ea] *CURRENT* script: `A_SetBlend()` fixes (user: ketmar tags: trunk)
+=== 2022-05-01 ===
+05:49:30 [65d9091d0e] *CURRENT* engine: set default client framerate cap to 70 (user: ketmar tags: trunk)
+=== 2022-04-30 ===
+20:56:29 [74f881c6de] vccrun: added tests for the previous commit (user: ketmar tags: trunk)
+20:55:58 [241626ef87] vc: proper `!optional` marshaling resolving; `!specified` now allowed for any local var
+         (user: ketmar tags: trunk)
+09:52:54 [988a44f171] vlumpy: more fixes (user: ketmar tags: trunk)
+09:30:36 [86a54d7e12] script: cosmetix (user: ketmar tags: trunk)
+09:20:08 [1c858b7db0] vlumpy: cosmetix (user: ketmar tags: trunk)
+=== 2022-04-29 ===
+15:13:18 [40780e2ff2] build: fixed install target (user: ketmar tags: trunk)
+04:57:25 [a5ab48c4f2] ajbsp: removed accidentally commited ".egedit.prj" (user: ketmar tags: trunk)
+04:49:16 [3e5ecd5049] widgets: cosmetix (added some comments, removed some dead code) (user: ketmar tags: trunk)
+01:39:52 [78ec8efd28] Closed ticket [851ec28c9ca70d9e|851ec28c9c]: <i>move some in-game stats rendering from C++
+         to VC statusbar code</i> plus 3 other changes (user: ketmar)
+01:39:36 [1af799c302] Ticket [851ec28c9ca70d9e|851ec28c9c] <i>move some in-game stats rendering from C++ to VC
+         statusbar code</i> status still Open with 5 other changes (user: ketmar)
+01:39:02 [d7a0f4da8a] automap: script: moved in-game stats overlay to statusbar code (closes [851ec28c9c]) (user:
+         ketmar tags: trunk)
+00:51:38 [69d2b37443] script: splitted shared status bar code a little (user: ketmar tags: trunk)
+20:35:54 [796e2b93ea] script: `A_SetBlend()` fixes (user: ketmar tags: trunk)
 20:28:07 [88ffc5eff0] script: marked some color args in decorate actions with "color*" flags (user: ketmar tags:
          trunk)
 20:27:30 [e2aee4921f] vc: decorate: moved params flags ([nnn]) processing to where it belongs (from vc lib to
