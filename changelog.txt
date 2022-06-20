@@ -1,3 +1,23 @@
+=== 2022-06-18 ===
+12:33:02 [c8cc68ba53] Ticket [3ea19da70f180a29|3ea19da70f] <i>user-configurable internal resolution in renderer</i>
+         status still Open with 3 other changes (user: ketmar)
+10:42:46 [df4c061e91] *CURRENT* script: ...and removed "effect applied" flag -- it doesn't really do anything useful
+         anyway (user: ketmar tags: trunk)
+10:39:30 [f68ed35fac] Ticket [2238ec04eae78f86|2238ec04ea] <i>thing 9038 (ColorSetter) doesn&#39;t work right</i>
+         status still Open with 5 other changes (user: ketmar)
+10:38:14 [43fd29760f] script: rewrote ColorSetter code, so it will apply the effect on the next tick; should fix
+         [2238ec04ea] (user: ketmar tags: trunk)
+10:19:58 [9292c43647] Add attachment [/artifact/0c1c5b2ce637cd9d|colorsetter_test.wad] to ticket
+         [2238ec04eae78f86|2238ec04ea] (user: ketmar)
+10:19:01 [e913f84c05] New ticket [2238ec04eae78f86|2238ec04ea] <i>thing 9038 (ColorSetter) doesn&#39;t work
+         right</i>. (user: ketmar)
+10:12:11 [0c1d1ae0fb] Add attachment [/artifact/398e957fc3c10e31|wtf.wad] to ticket [3a9143777e393e40|3a9143777e]
+         (user: ketmar)
+10:11:34 [5dc827b8d3] New ticket [3a9143777e393e40|3a9143777e] <i>monsters stuck on E1M5</i>. (user: ketmar)
+09:47:14 [3277411d19] Ticket [3ea19da70f180a29|3ea19da70f] <i>independed internal resolution in renderer</i> status
+         still Open with 5 other changes (user: ketmar)
+09:45:27 [c3d55d26cc] New ticket [3ea19da70f180a29|3ea19da70f] <i>independed internal resolution in renderer</i>.
+         (user: ketmar)
 === 2022-05-01 ===
 05:49:30 [65d9091d0e] *CURRENT* engine: set default client framerate cap to 70 (user: ketmar tags: trunk)
 === 2022-04-30 ===
