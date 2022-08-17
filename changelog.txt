@@ -1,3 +1,23 @@
+=== 2022-07-15 ===
+10:44:43 [e3306895b0] vc: forgot to set "used" flag on reused emit buffers (thanks, id0!) (user: ketmar tags: trunk)
+10:23:56 [bd0e23035d] main: ...oops, wrong condition ;-) (user: ketmar tags: trunk)
+10:22:14 [2b0c8dc0ba] main: do not allow FPU debug mode for non-developer builds (user: ketmar tags: trunk)
+=== 2022-07-08 ===
+01:42:57 [ca247a2399] Fixed ticket [2238ec04eae78f86|2238ec04ea]: <i>thing 9038 (ColorSetter) doesn&#39;t work
+         right</i> plus 2 other changes (user: ketmar)
+01:42:15 [a55bc11204] Fixed ticket [190e34a0647680ea|190e34a064]: <i>Disabling random sound pitches no longer disables
+         them</i> plus 2 other changes (user: ketmar)
+01:41:24 [423fabff44] Ticket [190e34a0647680ea|190e34a064] <i>Disabling random sound pitches no longer disables
+         them</i> status still Open with 5 other changes (user: ketmar)
+01:39:06 [fa784835de] sound: "disable random pitch" now disables all random pitches (there is no way to implement it
+         differently); should fix [190e34a064] (user: ketmar tags: trunk)
+=== 2022-07-07 ===
+18:44:09 [5129aaccfb] script: cosmetix in missile spawner (user: ketmar tags: trunk)
+18:38:17 [bc03d88ec5] script: added `MaxHealth` actor (it is present in GZDoom and Zandronum; it doesn't work properly
+         in k8vavoom yet) (user: ketmar tags: trunk)
+=== 2022-06-24 ===
+09:05:22 [1aacce051e] Ticket [51480cab211ed759|51480cab21] <i>Sound Sequence actors do not work for some actions</i>
+         status still Open with 5 other changes (user: mistressremilia)
 === 2022-06-18 ===
 12:33:02 [c8cc68ba53] Ticket [3ea19da70f180a29|3ea19da70f] <i>user-configurable internal resolution in renderer</i>
          status still Open with 3 other changes (user: ketmar)
