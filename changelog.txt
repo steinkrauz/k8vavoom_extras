@@ -1,3 +1,41 @@
+=== 2022-11-16 ===
+c6fa6038d voxelib: more fixes to kv6 loader
+e45f616aa voxelib: fixed kv6 loader
+06e652b5f voxelib: fixed KVX loader bug (it could reject small KVX objects)
+0a716be42 render: removed forgotten debug messages from the previous commit
+d1aba64d6 render: fixed bug in voxelib (invalid current position tracking); added support for Magica Voxel files
+45aa6a3ea base: added some Zan Voxel Extra classes to "skip in saves" (it is safe)
+e20f8d01a script: fixed bug in "became simpletick with lifetime" (wasn't really working for bouncers and such)
+daa1a46f2 bdw: cosmetic fix
+1fc5fac76 bdw: added forgotten class for casing model
+2dda2f683 bdw: some casing optimisations
+ddfc4ff94 script: added `IsActorClassExists()` decorate function
+ad6ffc260 player: reset mouselook modifier flags on player spawn/clear
+190a5afb3 render: implemented fuzzy mode in moder renderer
+2ca68f0d4 pinput: added BasePlayer flags to block/invert mouse look (independent of cvars, persistent) (requested by TDRR)
+bae33aa5b render: API cosmetix
+a557b1e4e render: added model definition flag to force sprite shadows for shadowmaps (dunno if it belongs there, though)
+b2bff0856 added hack to render barrel shadows with sprites
+cff0fa73a render: base: added options to use sprites instead of models to render shadows for various entity types
+ebe95c42c vc: `forceparents` should not force parent replacement for the original class (endless loop)
+b2e6d26c9 modes: "forceauto" was broken for non-globs
+6f9343a6f bdw: added "noshadow" to empty casing models
+99f0660ac filesys: if custom iwad is present, don't check for standard iwads; this fixes [921c6f679a]
+021c63ef3 bdw: added voxel models for empty shells
+2a9ea5b1d bdw: added voxel models for shotgun and rifle pickups; added voxel model for empty rifle casing
+e33ce11da removed shitdoze version check: it served it's purpose good, yet it should go now
+a8a2fbfd6 render: fixed bug with light culling -- if the light doesn't touch any subsector segs, but still touches floor/ceiling, it should not be rejected
+74bfa643c base: added "noselfshadow" to most default lights
+b684bc43f update splash text in some strategic places ;-)
+7d4319d27 render: automatically turn on voxel cache if model preloading took too much time; added preloading progress
+866ef4c2e acs: added "acs_fake_player_class" cvar (someone definitely knows *why* ;-)
+c6b5b43d4 script: added `GetMissileDamage()` to DECORATE to make Space Cats Saga 2.0 run
+259f41f19 base: added new cvars to video options menu (main and 3d models)
+ad2ffdc20 render: added "r_interpolate_frames_voxels", to disable model interpolation for voxel models
+10d8ad4ac render: use 32-bit vertex indices, to allow loading huge models (like Cheello Voxel Pack, for example)
+2c6de2087 entity: added "r_interpolate_thing_angles_models_monsters" cvar
+fd9d2bb66 psim: decorate: added last render time variable for entities; added DECORATE properties to get last render time, current level time, and game time
+72da43eec added project url and developer emails
 === 2022-07-15 ===
 10:44:43 [e3306895b0] vc: forgot to set "used" flag on reused emit buffers (thanks, id0!) (user: ketmar tags: trunk)
 10:23:56 [bd0e23035d] main: ...oops, wrong condition ;-) (user: ketmar tags: trunk)
